@@ -1374,13 +1374,13 @@ main {
 }
 
 /* Escalas según pantallas pequeñas*/
-@media (min-width: 600px) {
-  .pixel-center {
+/* @media (min-width: 600px) { */
+  /* .pixel-center { */
   /* width: 600px; 
   height: 600px;  */
   /* background-color: aqua; */
-}
-} 
+/* } */
+/* }  */
 
 @media (min-width: 800px) {
   /* .pixel-wrapper { 

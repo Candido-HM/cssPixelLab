@@ -1,0 +1,8 @@
+/* LAYOUT */
+@import "./experiments-lab.css/hero-lab.css";
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #D9D9D9;
+} 
