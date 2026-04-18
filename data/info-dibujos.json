@@ -1,0 +1,10 @@
+[
+    {
+        "id": 101,
+        "nombre": "Soldado de Metal Slug",
+        "description": "Mas y mas texto",
+        "metodo": "Single Div (Box-shadow)",
+        "path": "ruta al dibujo",
+        "img_path": "rutal de img previow"
+    }
+]
