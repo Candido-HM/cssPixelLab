@@ -1,6 +1,7 @@
 body {
   margin: auto;
   padding: 0;
+  background-color: #D9D9D9;
 }
 
 main {
@@ -14,22 +15,18 @@ main {
 }
 
 .pixel-center {
-  width: 300px; 
-  height: 300px;  
+  width: 290px; 
+  height: 400px;  
   position: relative;
-  /* background-color: aqua; */
 }
 
 .pixel-wrapper {
-  /* background-color: blueviolet; */
-  /* margin: 1rem;  */
   margin: auto;
   transform: scale(1);  
   transform-origin: top left; 
 }
 
  .pixel {
-  /* background: rgb(161, 161, 161); */
   transform: scale(0.3); 
   width: 30px;
   height: 30px;
@@ -1275,118 +1272,3 @@ main {
     840px 30px 0 0 RGB(249,249,249), 840px 30px 0 1px RGB(14, 14, 14),
     870px 30px 0 0 RGB(249,249,249), 870px 30px 0 1px RGB(14, 14, 14);
 }
-
-.pixel-nil2{
-  box-shadow:
-  0px 1170px 0 0 RGB(44,43,44), 0px 1170px 10px 0 red;
-    /* 990px 1770px 0 0 RGB(44,43,44), 0px 1770px 0 1px RGB(14,14,14), */
-    /* 30px 1200px 0 0 RGB(44,43,44), 30px 1200px 0 1px RGB(14,14,14),
-    60px 1200px 0 0 RGB(44,43,44), 60px 1200px 0 1px RGB(14,14,14),
-    90px 1200px 0 0 RGB(44,43,44), 90px 1200px 0 1px RGB(14,14,14),
-    120px 1200px 0 0 RGB(44,43,44), 120px 1200px 0 1px RGB(14,14,14),
-    150px 1200px 0 0 RGB(44,43,44), 150px 1200px 0 1px RGB(14,14,14),
-    180px 1200px 0 0 RGB(44,43,44), 180px 1200px 0 1px RGB(14,14,14),
-    210px 1200px 0 0 RGB(44,43,44), 210px 1200px 0 1px RGB(14,14,14),
-    240px 1200px 0 0 RGB(44,43,44), 240px 1200px 0 1px RGB(14,14,14),
-    270px 1200px 0 0 RGB(249,249,249), 270px 1200px 0 1px RGB(14,14,14),
-    300px 1200px 0 0 RGB(249,249,249), 300px 1200px 0 1px RGB(14,14,14),
-    330px 1200px 0 0 RGB(44,43,44), 330px 1200px 0 1px RGB(14,14,14),
-    360px 1200px 0 0 RGB(44,43,44), 360px 1200px 0 1px RGB(14,14,14),
-    390px 1200px 0 0 RGB(44,43,44), 390px 1200px 0 1px RGB(14,14,14),
-    420px 1200px 0 0 RGB(44,43,44), 420px 1200px 0 1px RGB(14,14,14),
-    450px 1200px 0 0 RGB(44,43,44), 450px 1200px 0 1px RGB(14,14,14),
-    480px 1200px 0 0 RGB(44,43,44), 480px 1200px 0 1px RGB(14,14,14),
-    510px 1200px 0 0 RGB(44,43,44), 510px 1200px 0 1px RGB(14,14,14),
-    540px 1200px 0 0 RGB(44,43,44), 540px 1200px 0 1px RGB(14,14,14),
-    570px 1200px 0 0 RGB(44,43,44), 570px 1200px 0 1px RGB(14,14,14),
-    600px 1200px 0 0 RGB(44,43,44), 600px 1200px 0 1px RGB(14,14,14),
-    630px 1200px 0 0 RGB(249,249,249), 630px 1200px 0 1px RGB(14,14,14),
-    660px 1200px 0 0 RGB(249,249,249), 660px 1200px 0 1px RGB(14,14,14),
-    690px 1200px 0 0 RGB(249,249,249), 690px 1200px 0 1px RGB(14,14,14),
-    720px 1200px 0 0 RGB(249,249,249), 720px 1200px 0 1px RGB(14,14,14),
-    750px 1200px 0 0 RGB(249,249,249), 750px 1200px 0 1px RGB(14,14,14),
-    780px 1200px 0 0 RGB(249,249,249), 780px 1200px 0 1px RGB(14,14,14),
-    810px 1200px 0 0 RGB(249,249,249), 810px 1200px 0 1px RGB(14,14,14), */
-    /* 840px 1200px 0 0 RGB(249,249,249), 840px 1200px 0 1px RGB(14,14,14); */
-}
-
- .pixel-v2{
-    box-shadow: 20px 190px 0 0 rgba(0, 0, 0, 1), 
-        30px 190px 0 0 rgba(0, 0, 0, 1), 
-        40px 190px 0 0 rgba(0, 0, 0, 1), 
-        50px 190px 0 0 rgba(0, 0, 0, 1), 
-        10px 200px 0 0 rgb(165, 3, 3), 
-        20px 200px 0 0 rgb(92, 182, 8), 
-        30px 200px 0 0 rgba(0, 0, 0, 1), 
-        40px 200px 0 0 rgba(0, 0, 0, 1), 
-        60px 200px 0 0 rgba(0, 0, 0, 1), 
-        70px 200px 0 0 rgba(0, 0, 0, 1), 
-        80px 200px 0 0 rgba(0, 0, 0, 1), 
-        90px 200px 0 0 rgba(0, 0, 0, 1), 
-        110px 200px 0 0 rgba(0, 0, 0, 1), 
-        120px 200px 0 0 rgba(0, 0, 0, 1), 
-        130px 200px 0 0 rgba(0, 0, 0, 1), 
-        140px 200px 0 0 rgba(0, 0, 0, 1), 
-        160px 200px 0 0 rgba(0, 0, 0, 1), 
-        170px 200px 0 0 rgba(0, 0, 0, 1), 
-        180px 200px 0 0 rgba(0, 0, 0, 1), 
-        190px 200px 0 0 rgba(0, 0, 0, 1);
-  height: 10px;
-  width: 10px;
-}
-
-.pixel-art {
-  width: 2rem;
-  height: 2rem;
-  /* transform: scale(0.3);  */
-
-  box-shadow:
-    2rem 0rem 0 0rem RGB(44,43,44), 2rem 0 0.2rem 0 RGB(14,14,14),
-    4rem 0rem 0 0rem RGB(249,249,249), 4rem 0 0.2rem 0 RGB(14,14,14),
-    6rem 0rem 0 0rem RGB(44,43,44), 6rem 0 0.2rem 0 RGB(14,14,14),
-    8rem 0rem 0 0rem RGB(249,249,249), 8rem 0 0.2rem 0 RGB(14,14,14),
-    10rem 0rem 0 0rem RGB(44,43,44), 10rem 0 0.2rem 0 RGB(14,14,14),
-    12rem 0rem 0 0rem RGB(249,249,249), 12rem 0 0.2rem 0 RGB(14,14,14),
-    14rem 0rem 0 0rem RGB(44,43,44), 14rem 0 0.2rem 0 RGB(14,14,14),
-    16rem 0rem 0 0rem RGB(249,249,249), 16rem 0 0.2rem 0 RGB(14,14,14),
-    18rem 0rem 0 0rem RGB(44,43,44), 18rem 0 0.2rem 0 RGB(14,14,14),
-    20rem 0rem 0 0rem RGB(249,249,249), 20rem 0 0.2rem 0 RGB(14,14,14),
-    22rem 0rem 0 0rem RGB(44,43,44), 22rem 0 0.2rem 0 RGB(14,14,14),
-    24rem 0rem 0 0rem RGB(249,249,249), 24rem 0 0.2rem 0 RGB(14,14,14),
-    26rem 0rem 0 0rem RGB(44,43,44), 26rem 0 0.2rem 0 RGB(14,14,14),
-    28rem 0rem 0 0rem RGB(249,249,249), 28rem 0 0.2rem 0 RGB(14,14,14),
-    30rem 0rem 0 0rem RGB(44,43,44), 30rem 0 0.2rem 0 RGB(14,14,14),
-    32rem 0rem 0 0rem RGB(249,249,249), 32rem 0 0.2rem 0 RGB(14,14,14),
-    34rem 0rem 0 0rem RGB(44,43,44), 34rem 0 0.2rem 0 RGB(14,14,14),
-    36rem 0rem 0 0rem RGB(249,249,249), 36rem 0 0.2rem 0 RGB(14,14,14),
-    38rem 0rem 0 0rem RGB(44,43,44), 38rem 0 0.2rem 0 RGB(14,14,14),
-    40rem 0rem 0 0rem RGB(249,249,249), 40rem 0 0.2rem 0 RGB(14,14,14),
-    42rem 0rem 0 0rem RGB(44,43,44), 42rem 0 0.2rem 0 RGB(14,14,14),
-    44rem 0rem 0 0rem RGB(249,249,249), 44rem 0 0.2rem 0 RGB(14,14,14),
-    46rem 0rem 0 0rem RGB(44,43,44), 46rem 0 0.2rem 0 RGB(14,14,14),
-    48rem 0rem 0 0rem RGB(249,249,249), 48rem 0 0.2rem 0 RGB(14,14,14),
-    50rem 0rem 0 0rem RGB(44,43,44), 50rem 0 0.2rem 0 RGB(14,14,14),
-    52rem 0rem 0 0rem RGB(249,249,249), 52rem 0 0.2rem 0 RGB(14,14,14),
-    54rem 0rem 0 0rem RGB(44,43,44), 54rem 0 0.2rem 0 RGB(14,14,14),
-    56rem 0rem 0 0rem RGB(249,249,249), 56rem 0 0.2rem 0 RGB(14,14,14),
-    58rem 0rem 0 0rem RGB(44,43,44), 58rem 0 0.2rem 0 RGB(14,14,14),
-    60rem 0rem 0 0rem RGB(249,249,249), 60rem 0 0.2rem 0 RGB(14,14,14);
-}
-
-/* Escalas según pantallas pequeñas*/
-/* @media (min-width: 600px) { */
-  /* .pixel-center { */
-  /* width: 600px; 
-  height: 600px;  */
-  /* background-color: aqua; */
-/* } */
-/* }  */
-
-@media (min-width: 800px) {
-  /* .pixel-wrapper { 
-     transform: scale(1); 
-  } */
-  /* .pixel {
-    transform: scale(0.3);
-  }  */
-} 
