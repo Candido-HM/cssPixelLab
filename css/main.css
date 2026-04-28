@@ -1,8 +1,29 @@
 /* LAYOUT */
 @import "./experiments-lab.css/hero-lab.css";
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
 
 body {
     padding: 0px;
     margin: 0px;
     background-color: #D9D9D9;
-} 
+}
+
+.hero {
+    font-family: "Jersey 15", sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 90px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 35px;
+}
+
+p {
+    font-weight: 200;
+    font-size: 23px;
+}
